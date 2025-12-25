@@ -42,6 +42,13 @@ pip install "dvc[gdrive]"
 dvc push
 ```
 
+Tienes que crear un oauth en gcp y sacar el client id y client secret para el push. Para crear el oauth tienes que crear una Desktop app en “Application type”
+```bash
+cat .dvc/config
+dvc remote modify gdrive gdrive_client_id 'TU_CLIENT_ID'
+dvc remote modify gdrive gdrive_client_secret 'TU_CLIENT_SECRET'
+```
+
 Para traernos nuestras imagenes de google drive
 ```bash
 dvc pull

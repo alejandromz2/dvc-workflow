@@ -106,10 +106,10 @@ stages:
     params:
       params.yaml:
         evaluate:
-          metric: f1_score
+          metric: accuracy
           results_save_path: ./archive/results.yaml
     outs:
     - path: ./archive/results.yaml
       hash: md5
-      md5: 746b84d1eb618ea1067f706d973bba13
-      size: 29
+      md5: 0b902983fa7a0b5e64cb05133faf44c8
+      size: 17

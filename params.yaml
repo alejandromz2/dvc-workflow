@@ -17,5 +17,5 @@ train:
   model_save_path: ./archive/model.joblib
 
 evaluate:
-  metric: f1_score
+  metric: accuracy
   results_save_path: ./archive/results.yaml

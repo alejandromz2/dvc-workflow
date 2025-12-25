@@ -11,4 +11,5 @@ wheels/
 
 # DVC 
 archive
+dvc/config
 client_secret.json
